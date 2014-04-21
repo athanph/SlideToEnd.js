@@ -8,7 +8,8 @@ I was asked to write a script to provide a 'Scroll to Bottom (of page)' button u
 
 
 ## Usage
-- Include jQuery before the `<head>` section.
+- Include jQuery just before the closing `</body>` tag.
+- Place this script after.
 - Create the button. (Styling of the button can be done via CSS.)
 ```
 <a href="#" id="js-scrollBtn" class="scroll-button"><span>Scroll</span></a>
